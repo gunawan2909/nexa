@@ -59,11 +59,11 @@ Employee Management API adalah aplikasi berbasis Node.js dengan Sequelize sebaga
 ## 🔥 Endpoint API
 | Method | Endpoint | Deskripsi |
 |--------|---------|-----------|
-| GET | /employees | Mendapatkan semua data karyawan |
-| GET | /employees/:id | Mendapatkan data karyawan berdasarkan ID |
-| POST | /employees | Menambahkan karyawan baru |
-| PUT | /employees/:id | Mengupdate data karyawan |
-| DELETE | /employees/:id | Menghapus karyawan |
+| POST | api/auth/login | Login |
+| GET | api/employee | Mendapatkan semua data karyawan |
+| POST | api/employee | Create karyawan baru |
+| PATCH | api/employee/:nip | Update karyawan baru |
+| PATCH | api/employee/:nip/status | Update status karyawan baru |
 
 ## ✨ Kontributor
 - **Gunawan Prasetya** - Developer
